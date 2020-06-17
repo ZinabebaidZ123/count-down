@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	      <title>countdown timer</title>
+   </head>
+
+<link rel="stylesheet" type="text/css" href="counter.css">
+
+<body>
+<!--container div-->
+ <div class="container">
+
+   <h1>Event Countdown Timer</h1>
+
+     <form id="form">
+
+      <label>Please, Enter Your Event Title:</label>
+      <!--input for writing the title of event-->
+        <input type="text" id="title" placeholder="Event Title">
+<br>
+         <label>Please, Enter Your Event Date:</label>
+            <!--input for writing the date of the title-->
+           <input type="datetime-local" id="date">
+<br>
+               <!--button to begin the countdown-->
+              <button id="button">Start</button>
+                  <!-- paragraph to show the title through it-->
+                   <p id="p"></p>
+                     <!-- div to show the countdown through it-->
+                      <div id="count-down" class="result"></div>
+
+               </form>
+           <script src="counter.js"></script>
+             </div>
+</body>
+</html>

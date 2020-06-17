@@ -1,0 +1,79 @@
+/* make css for the body*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: TimesNewRoman;
+	background-color: #2f4f4f;
+	text-align: center;
+	color: #eee;
+}
+/* make css for the head*/
+.container h1
+{
+	margin-top: 30px;
+}
+
+/*making css for the inputs which includes in project*/
+.container input
+{
+	background-color: #eee;
+	margin-top:  50px;
+	margin-left: 20px;
+	padding: 20px;
+	color: #2f4f4f;
+	border: none;
+	width: 300px;
+	height: 60px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: medium;
+}
+/*making css for the labels*/
+.container label
+{
+	font-size: 22px;
+	font-weight: bold;
+}
+/*making css for the start button*/
+.container button
+{
+	width: 120px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #b0c4de;
+	color: #2f4f4f;
+	margin-top: 40px;
+	padding:5px;
+	font-size: medium;
+	cursor: pointer;
+
+}
+/*making css for div which the coundown apears through it*/
+.container .result
+{
+	font-size: x-large;
+	margin: 70px;
+	width: 500px;
+	height: 80px;
+	background-color:#eee ; 
+	border-color: #000;
+	font-weight: bold;
+	text-align: center;
+	color: #2f4f4f;
+	display: none;
+	position: absolute;
+	left: 350px;
+	border-radius: 20px;
+	padding:20px;
+
+}
+/*making css for the p which the event title apears through it*/
+.container p
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	margin: 30px;
+}
