@@ -42,7 +42,8 @@
 	width: 120px;
 	height: 40px;
 	border-radius: 10px;
-	background-color: #b0c4de;
+	/* #b0c4de;*/
+	background-color: red;
 	color: #2f4f4f;
 	margin-top: 40px;
 	padding:5px;
